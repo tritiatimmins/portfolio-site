@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  {% include /head.html %}
+
+	<body id="top">
+
+        {% include /header.html %}
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h2>Tritia Timmins</h2>
+                <h3>UX Designer</h3>
+                <h3>Dedicated to creating meaningful, intuitive experiences</h3>
+                <h4>Currently looking for a full time role</h4>
+                <ul class="actions">
+                    <li><a href="mailto:tritialtimmins@gmail.com?Subject=Let's%20chat" class="button big special">Contact Me</a></li>
+                    <li><a href="{{ site.baseurl }}/portfolio.html" class="button big alt">View My Work</a></li>
+                </ul>
+
+            </div>
+        </section>
+        {{ content }}
+        {% include /footer.html %}
+
+    </body>
+
+</html>
