@@ -4,7 +4,7 @@ title:  "Adventurous"
 ---
 <p>Adventurous is a travel app designed for mobile and web that allows users to save and upload points of interest in different locations around the world.<p>
 <div class="center"> 
-  <img class="smallerImage" src="{{site.baseurl}}/images/MapView.svg" alt="Adventurous Map Screenshot"/>
+  <img class="smallerImage" src="{{site.baseurl}}/images/MapView.png" alt="Adventurous Map Screenshot"/>
   <img class="smallerImage" src="{{site.baseurl}}/images/EditPostFinishedGallery.png" alt="Adventurous Edit Post Screenshot"/>
   <img class="smallerImage" src="{{site.baseurl}}/images/CameraCapture.png" alt="Adventurous Campera Screenshot"/>
 </div>
