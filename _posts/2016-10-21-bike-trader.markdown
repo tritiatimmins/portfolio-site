@@ -57,10 +57,10 @@ Bike Trader is a web app that allows users to create a profile, view bicycle cla
 <div class="center">
   <h2>WIREFRAMING</h2>
   <p>Here I have created low fidelity wireframes of the classifieds section of Bike Trader. The next step is going to be creating a prototype of my mockups to test the usability.</p>
-  <img src="{{site.baseurl}}/images/SearchingFiltering.svg" alt="Searching, filtering, and toggling between list and grid views"/>
-  <img src="{{site.baseurl}}/images/ListView.svg" alt="ListView"/>
-  <img src="{{site.baseurl}}/images/GridView.svg" alt="GridView"/>
-  <img src="{{site.baseurl}}/images/DetailedAdView.svg" alt="Detailed ad view"/>
+  <img width="100%" src="{{site.baseurl}}/images/SearchingFiltering.svg" alt="Searching, filtering, and toggling between list and grid views"/>
+  <img width="100%" src="{{site.baseurl}}/images/ListView.svg" alt="ListView"/>
+  <img width="100%" src="{{site.baseurl}}/images/GridView.svg" alt="GridView"/>
+  <img width="100%" src="{{site.baseurl}}/images/DetailedAdView.svg" alt="Detailed ad view"/>
 </div>
 
 <div class="center">
