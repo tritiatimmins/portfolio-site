@@ -31,7 +31,8 @@
 /* Banner */
 
 	#banner {
-		padding: 6em 1em;
+		/*padding: 6em 1em;*/
+		padding: 10em;
 	}
 
 		#banner .button {

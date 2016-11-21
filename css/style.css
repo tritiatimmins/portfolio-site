@@ -1,6 +1,9 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Roboto:500,300");
+@import url("http://fonts.googleapis.com/css?family=Lato:400, 300");
+@import url("http://fonts.googleapis.com/css?family=Lusitania:500, 300");
+@import url("http://fonts.googleapis.com/css?family=Lora:400, 300");
 
 /*
 	Ion by TEMPLATED
@@ -16,14 +19,15 @@
 
 	body, input, select, textarea {
 		color: #555f66;
-		font-family: "Roboto", Helvetica, sans-serif;
+		/*font-family: "Roboto", Helvetica, sans-serif;*/
+		font-family: "Lato", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.75em;
 	}
 
 	a {
-		color: #629DD1;
+		color: #BDADD8;
 		text-decoration: underline;
 	}
 
@@ -40,9 +44,34 @@
 		font-style: italic;
 	}
 
+/*added by me*/
+
 	p {
 		margin: 0 0 2em 0;
+		font-family: "Lora", serif;
 	}
+
+	ul, li {
+		/*list-style: none;*/
+		font-family: "Lora", serif;
+	}
+
+	ol, li {
+		font-family: "Lora", serif;
+	}
+
+	.emphasis {
+		font-family: "Lora", serif;
+		/*font-style: italic;*/
+		/*width: 60%;*/
+		/*margin: 0 auto;*/
+		/*text-align: left;*/
+		text-transform: none;
+		font-weight: 300;
+	}
+
+
+	/* ends added by me*/
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #666f77;
@@ -513,6 +542,8 @@
 
 		ul li {
 			padding-left: 0.5em;
+			/* new */
+			text-align: left;
 		}
 
 		ul.alt {
@@ -810,7 +841,9 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #629DD1;
+			/*background-color: #629DD1;*/
+			/*background-image: linear-gradient(to bottom right, #5773B8, #AE73B8);*/
+			background-color: rgba(31, 189, 193, 0.81);
 			color: #ffffff !important;
 		}
 
@@ -818,7 +851,8 @@
 			input[type="reset"].special:hover,
 			input[type="button"].special:hover,
 			.button.special:hover {
-				background-color: #76a9d7;
+				/*background-color: #76a9d7;*/
+				background-color: #BDADD8;
 			}
 
 			input[type="submit"].special:active,
@@ -950,10 +984,13 @@
 						color: #555f66;
 						display: inline-block;
 						text-decoration: none;
+						text-transform: uppercase;
+						font-family: "Lato", Helvetica, sans-serif;
 					}
 
 						#header nav > ul > li a:hover {
-							color: #629DD1;
+							/*color: #629DD1;*/
+							color: #BDADD8;
 						}
 
 					#header nav > ul > li:first-child {
@@ -986,12 +1023,12 @@
 
 	#banner {
 		background-color: #666666;
-		background-image: url("../images/dark-plant.jpg");
+		background-image: url("../images/AbstractColors.jpeg");
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
 		color: #d8d8d8;
-		padding: 15em 0;
+		padding: 8em 0;
 		text-align: center;
 		position: relative;
 	}
@@ -1020,12 +1057,14 @@
 		}
 
 		#banner .button.alt {
-			box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);
+			/*box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);*/
+			box-shadow: inset 0 0 0 1px #BDADD8;
 			color: #ffffff !important;
 		}
 
 			#banner .button.alt:hover {
-				background-color: rgba(144, 144, 144, 0.275);
+				/*background-color: rgba(144, 144, 144, 0.275);*/
+				background-color: #BDADD8;
 			}
 
 			#banner .button.alt:active {
@@ -1103,4 +1142,155 @@
 .center {
 	text-align: center;
 	float: none;
+}
+
+.center p {
+	text-align: left;
+}
+
+.center li {
+  padding-left: 0.5em;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+}
+
+.green-circle {
+	border-radius: 50px;
+	background-color: #50E3C2;
+	height: 20px;
+	width: 20px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.titleContainer {
+	width: 100%;
+	margin: 0 auto;
+	/*display: inline-block;*/
+}
+
+.title {
+	width: 50%;
+	display: inline-block;
+}
+
+.title h4 {
+	text-align: center;
+}
+
+.title li {
+	list-style: none;
+	text-align: center;
+}
+
+.imageContainer {
+	text-align: center;
+	margin: 0 auto;
+	float: none;
+	width: 100%;
+}
+
+.centeredImage {
+	margin: 0 auto;
+	width: 100%
+}
+
+.smallerImage {
+	margin: 0 auto;
+	width: 25%;
+	margin: 10px;
+}
+
+/* modal */
+#myImg {
+	border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    /*max-width: 700px;*/
+    max-width: 100%;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 66px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
 }

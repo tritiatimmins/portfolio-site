@@ -4,7 +4,7 @@ email: tritialtimmins@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  The online portfolio of Tritia Timmins. UX Designer and Blogger.
 # baseurl: "/Ion-Jekyll-Theme" # the subpath of your site, e.g. /blog/
-baseurl: "/"
+baseurl: "/tritiatimmins"
 url: "http://tritiatimmins.com" # the base hostname & protocol for your site
 twitter_username: tritialitimmins
 github_username:  tritiatimmins
